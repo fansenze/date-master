@@ -1,0 +1,24 @@
+{
+  "name": "date-master",
+  "version": "0.0.1",
+  "description": "Date Utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fansenze/date-master.git"
+  },
+  "keywords": [
+    "date",
+    "utils",
+    "master"
+  ],
+  "author": "senze.fan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fansenze/date-master/issues"
+  },
+  "homepage": "https://github.com/fansenze/date-master#readme"
+}
