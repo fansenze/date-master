@@ -94,6 +94,6 @@ new DateMaster(seconds1).nativeDate.getDay() // 0
 
 new DateMaster(seconds1).nativeDate.getHours() // 5
 
-new DateMaster(seconds1).nativeDate.toDateString() 'Sun Oct 01 2017'
+new DateMaster(seconds1).nativeDate.toDateString() // 'Sun Oct 01 2017'
 
 ```
