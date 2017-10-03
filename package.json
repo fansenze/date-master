@@ -1,10 +1,15 @@
 {
   "name": "date-master",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Date Utils",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -20,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/fansenze/date-master/issues"
   },
-  "homepage": "https://github.com/fansenze/date-master#readme"
+  "homepage": "https://github.com/fansenze/date-master#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.2.1"
+  }
 }
